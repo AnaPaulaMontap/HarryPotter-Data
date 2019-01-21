@@ -141,7 +141,7 @@ document.getElementById("house1").addEventListener("click", (event) => {
     <h3 class="header green-text text-darken-2"><b>Slytherin</b></h3>
      <div class="card horizontal">
       <div class="card-image">
-        <img class="responsive-image" src="/./imagenes/0.61_Slytherin_Crest_Transparent.png">
+        <img class="responsive-image" src="./imagenes/0.61_Slytherin_Crest_Transparent.png">
       </div>
       <div class="card-stacked">
         <div class="card-content green darken-4 text-flow">
@@ -172,7 +172,7 @@ document.getElementById("house2").addEventListener("click", (event) => {
     <h3 class="header blue-text text-darken-2"><b>Ravenclaw</b></h3>
      <div class="card horizontal">
       <div class="card-image">
-        <img class="responsive-image" src="/./imagenes/0.41_Ravenclaw_Crest_Transparent.png">
+        <img class="responsive-image" src="./imagenes/0.41_Ravenclaw_Crest_Transparent.png">
       </div>
       <div class="card-stacked">
         <div class="card-content blue darken-4 text-flow">
@@ -204,7 +204,7 @@ document.getElementById("house3").addEventListener("click", (event) => {
     <h3 class="header red-text text-darken-2"><b>Gryffindor</b></h3>
      <div class="card horizontal">
       <div class="card-image">
-        <img class="responsive-image" src="/./imagenes/0.31_Gryffindor_Crest_Transparent.png">
+        <img class="responsive-image" src="./imagenes/0.31_Gryffindor_Crest_Transparent.png">
       </div>
       <div class="card-stacked">
         <div class="card-content red darken-4 text-flow">
@@ -236,20 +236,18 @@ document.getElementById("house4").addEventListener("click", (event) => {
     <h3 class="header amber-text text-darken-2"><b>Hufflepuff</b></h3>
      <div class="card horizontal">
       <div class="card-image">
-        <img class="responsive-image" src="/./imagenes/59d94589b591e9ec30a31ce3a4d1fcfcee43c66e_hq.jpg">
+        <img class="responsive-image" src="./imagenes/59d94589b591e9ec30a31ce3a4d1fcfcee43c66e_hq.jpg">
       </div>
       <div class="card-stacked">
         <div class="card-content amber darken-4 text-flow">
          
-        <p><b>Jefe de la Casa: </b>Filius Flitwick.</p>
-          <p><b>Colores representativos: </b>Azul y Bronce en los libros, Azul y Plata en las películas.</p>
-          <p><b>Animal representativo:</b>  Águila.</p>
-          <p><b>Fundador:</b> Rowena Ravenclaw.</p>
-          <p><b>Fantasma: </b>Helena Ravenclaw (Hija de Rowena Ravenclaw), mejor conocida como La Dama Gris..</p>
-          <p><b>Significado:</b> Garra de cuervo (aunque en la versión francesa se llama Serdaigle -del francés serre d'aigle, literalmente garra de águila-).
-          "Una inteligencia sin límites es el mayor tesoro de los hombres", se considera la frase que resume el espíritu de la casa.</p>
-          <p><b>Cualidades requeridas:</b> Inteligencia, curiosidad y sabiduría. Una mente dispuesta y creatividad.</p>
-          <p><b>Elemento de Slytherin:</b> Agua, asociado a la versatilidad y capacidad de adaptación de los Slytherins.</p>
+        <p><b>Jefe de la Casa: </b>Pomona Sprout.</p>
+          <p><b>Colores representativos: </b>Amarillo y negro.</p>
+          <p><b>Animal representativo:</b>  Tejón.</p>
+          <p><b>Fundador:</b> Helga Hufflepuff.</p>
+          <p><b>Fantasma: </b>El Fraile Gordo.</p>
+          <p><b>Características:</b> Justos, leales y trabajadores. Los hufflepuff son buenas personas y suelen caer bien a todo el mundo. Son pacientes, tolerantes y siempre harán todo de forma honrada, sin hacer trampas y respetando las reglas.</p>
+          <p><b>Elemento:</b> Tierra, asociada a la laboriosidad propia de esta casa.</p>
         </div>
       </div>
     </div>
