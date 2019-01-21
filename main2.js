@@ -141,7 +141,7 @@ document.getElementById("house1").addEventListener("click", (event) => {
     <h3 class="header green-text text-darken-2"><b>Slytherin</b></h3>
      <div class="card horizontal">
       <div class="card-image">
-        <img class="responsive-image" src="../imagenes/0.61_Slytherin_Crest_Transparent.png">
+        <img class="responsive-image" src="/./imagenes/0.61_Slytherin_Crest_Transparent.png">
       </div>
       <div class="card-stacked">
         <div class="card-content green darken-4 text-flow">
@@ -172,7 +172,7 @@ document.getElementById("house2").addEventListener("click", (event) => {
     <h3 class="header blue-text text-darken-2"><b>Ravenclaw</b></h3>
      <div class="card horizontal">
       <div class="card-image">
-        <img class="responsive-image" src="../imagenes/0.41_Ravenclaw_Crest_Transparent.png">
+        <img class="responsive-image" src="/./imagenes/0.41_Ravenclaw_Crest_Transparent.png">
       </div>
       <div class="card-stacked">
         <div class="card-content blue darken-4 text-flow">
@@ -204,7 +204,7 @@ document.getElementById("house3").addEventListener("click", (event) => {
     <h3 class="header red-text text-darken-2"><b>Gryffindor</b></h3>
      <div class="card horizontal">
       <div class="card-image">
-        <img class="responsive-image" src="../imagenes/0.31_Gryffindor_Crest_Transparent.png">
+        <img class="responsive-image" src="/./imagenes/0.31_Gryffindor_Crest_Transparent.png">
       </div>
       <div class="card-stacked">
         <div class="card-content red darken-4 text-flow">
@@ -236,7 +236,7 @@ document.getElementById("house4").addEventListener("click", (event) => {
     <h3 class="header amber-text text-darken-2"><b>Hufflepuff</b></h3>
      <div class="card horizontal">
       <div class="card-image">
-        <img class="responsive-image" src="../imagenes/59d94589b591e9ec30a31ce3a4d1fcfcee43c66e_hq.jpg">
+        <img class="responsive-image" src="/./imagenes/59d94589b591e9ec30a31ce3a4d1fcfcee43c66e_hq.jpg">
       </div>
       <div class="card-stacked">
         <div class="card-content amber darken-4 text-flow">
