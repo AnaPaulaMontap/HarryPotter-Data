@@ -28,7 +28,7 @@ body{
 
 #p1{
     height: 350px;
-    background-image: url('../imagenes/1*rvO-OwI4gBZ4dtAw6NWWog.png');
+    background-image: url('/./imagenes/1*rvO-OwI4gBZ4dtAw6NWWog.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -36,7 +36,3 @@ body{
     z-index: -1;
 }
 
-.raven{
-    background-image: url('../imagenes/f5a97cd0d56d248a77be7b45d24d705a.jpg');
-    
-}
