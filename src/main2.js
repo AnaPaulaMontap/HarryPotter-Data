@@ -28,7 +28,7 @@ const perfilPage = document.getElementsByClassName("card-img");
 
 window.onload= fetcheame()
 function fetcheame() {
-    fetch("http://hp-api.herokuapp.com/api/characters")
+    fetch("https://cors-anywhere.herokuapp.com/http://hp-api.herokuapp.com/api/characters")
       .then(data => data.json())
       .then(data => {
   
