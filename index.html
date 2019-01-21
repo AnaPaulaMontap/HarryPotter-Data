@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> HOGWARTS</title>
+
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+     <!-- Main stylesheet -->
+     <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navbar-fixed">
+    <nav class="black">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">HarryPotter</a>
+                <ul class="right hide-on-med-and-down" id="navList">
+                    <li><a href="#landing">Home</a></li>
+                    <li><a href="#work">Personajes</a></li>
+                    <li><a href="#house">Casas</a></li>
+                </ul>
+        </div>
+</div>
+</nav>
+</div>
+
+<!-- Landing Screen -->
+<div class="section" id="landing">
+    <h5 id="mainText" class="center">Conoce todo sobre</h5>
+    <h1 style="color: white;" class="center">
+        <b>HOGWARTS</b></h1>
+    <h6 id="mainText" class="center">y sus integrantes</h6>
+</div>
+
+<!-- FIXED ACTION BUTTON -->
+<div class="fixed-action-btn vertical">
+    <a class="btn-floating btn-large  blue-grey darken-4">
+        <i class="fa fa-globe"></i>
+    </a>
+    <ul>
+        <li><a class="btn-floating  blue darken-4"><i class="fa fa-facebook"></i></a></li>
+        <li><a class="btn-floating cyan lighten-1"><i class="fa fa-twitter"></i></a></li>
+        <li><a class="btn-floating grey darken-3"> <i class="fa fa-github"></i></a></li>
+        <li><a class="btn-floating blue-grey lighten-1"><i class="fa fa-linkedin"></i></a></li>
+    </ul>
+</div>
+
+<!-- Frase  -->
+<div id="intro" class="section black">
+    <div class="container">
+        <div class="row">
+        </div>
+        <div class="row center">
+            <div class="col s12 m12 l3">
+                <img class="responsive-img" src="https://vignette.wikia.nocookie.net/harrypotterfannon/images/d/d6/Hogwarts_logo.png/revision/latest?cb=20130903184250&path-prefix=es">
+            </div>
+            <dic class="col s12 m12 offset-l1 l8 ">
+                <h5>"El mundo no se divide en gente buena y mala; todos tenemos luz y oscuridad dentro de nosotros, lo
+                    que importa es la parte a la que obedecemos, eso es lo que realmente somos"
+                </h5>
+                <h6 class="center"> <b>SIRIUS BLACK</b></h6>
+            </dic>
+        </div>
+    </div>
+</div>
+   
+<!--Parallax-->
+<div class="section" id="p1">
+    <h5 id="mainText" class="center"></h5>
+    <h1 style="color: white;" class="center">
+        <b>PERSONAJES</b></h1>
+    <h6 id="mainText" class="center"></h6>
+</div>
+
+<!--Select + Personajes-->
+<div class="section" style="background-color: #141414;" id="work">
+    <div class="container">
+        <div class="row">
+
+            <div class="input-field col s12 m4">
+                <select id="filtered">
+                    <option value="" disabled selected>Selecciona la casa de Hogwarts a filtrar</option>
+                    <option value="Slytherin">Slytherin</option>
+                    <option value="Gryffindor">Gryffindor</option>
+                    <option value="Hufflepuff">Hufflepuff</option>
+                    <option value="Ravenclaw">Ravenclaw</option>
+                </select>
+                <label>Selecciona una casa</label>
+            </div>
+            <div class="input-field col s12 m4">
+                <select id="ordered">
+                    <option value="" disabled selected>Ordena los personajes</option>
+                    <option value="az">A-Z</option>
+                    <option value="za">Z-A</option>
+                </select>
+                <label>Ordena los personajes</label>
+            </div>
+            <div class="col s12 m4">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix"></i>
+                        <input type="text" id="autocomplete-input" class="autocomplete">
+                        <label for="autocomplete-input">Busca tu Personaje</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="root">
+            <p>holiholiholi</p>
+            <!--    <div class="col s12 m4 l4">
+                <div class="card hoverable black">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="../imagenes/draco.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator purple-text text-lighten-5">Draco Malfoy <i class="mdi-navigation-more-vert right"></i></span>
+                        <p>Slytherin</p>
+                    </div>
+                    <div class="card-reveal  black">
+                        <span class="card-title purple-text text-lighten-5"> Draco Malfoy <i class="mdi-navigation-close right"></i></span>
+                        <p>Here is some more information about this project that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>  
+-->
+        </div>
+    </div>
+</div>
+
+
+<!-- Casas-->
+<div class="section" style="background-color: #101010;" id="house">
+    
+    <div class="container">
+        <div class="row">
+            <h5 class="center white-text">
+                <b>SOMBRERO SELECCIONADOR</b>
+            </h5>
+        </div>
+        </div>
+</div>
+
+        <div class="row center">
+<div class="col s12 m3 l3">
+   <a  href="#house1" id="house1"> <img class="responsive-img" src="../imagenes/sl.jpg"> </a>
+</div>
+<div class="col s12 m3 l3">
+    <a  href="#house2" id="house2"> <img class="responsive-img" src="../imagenes/248395ee5a82ab5d93973f03b5ffcc19.jpg"> </a>
+</div>
+<div class="col s12 m3 l3">
+    <a  href="#house3" id="house3">  <img class="responsive-img" src="../imagenes/f5a97cd0d56d248a77be7b45d24d705a.jpg"> </a>
+</div>
+<div class="col s12 m3 l3">
+    <a  href="#house4" id="house4"> <img class="responsive-img" src="../imagenes/43f46fcd37273098a08c8bec718f5073.jpg"> </a>
+</div>
+</div>
+
+<div id="root1"></div>
+
+
+
+
+
+<footer class="section page page footer">
+    <div class="container center-align">
+        AnaPaulaMontap © 2019 
+        <a href="#landing">Volver al Inicio</a>
+    </div>
+</footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="main2.js"></script>
+        <script src="data.js"></script>
+
+</body>
+</html>
